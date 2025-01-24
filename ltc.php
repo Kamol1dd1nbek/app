@@ -7,7 +7,7 @@ versi = "1.0.6",
 class_require = "1.0.5",
 host = "https://litepick.io/",
 refflink = "https://litepick.io/?ref=anjim128",
-youtube = "https://youtu.be/wWsHFa8ZhpQ";
+
 
 const 
 turnstile = "0x4AAAAAAA0-UWDHOKP0OrgS",
@@ -104,7 +104,7 @@ class Bot {
 			sleep(5);
 		}
 		$this->scrap = new HtmlScrap();
-		Functions::view(youtube);
+	
 		
 		Display::Ban(title, versi);
 		
